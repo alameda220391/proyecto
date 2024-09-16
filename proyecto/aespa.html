@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aespa - K-pop Universe</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">K-pop Universe</a>
+        </div>
+    </nav>
+
+    <header class="hero-blackpink text-center text-white py-5">
+        <h1>Aespa</h1>
+        <p>Un grupo de chicas revolucionando el K-pop con su concepto virtual y estilo innovador.</p>
+    </header>
+
+    <section class="container my-5">
+        <h2>Sobre Aespa</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p>Aespa es un grupo femenino surcoreano formado por SM Entertainment. Con su innovador concepto de integrar miembros virtuales y reales, han capturado la atención global. Su música combina futurismo y una estética única que resuena con los fans de todo el mundo.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="imagenes/Aespa.avif" class="img-fluid rounded" alt="Aespa">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Section for Aespa Members -->
+    <section class="container my-5">
+        <h2>Integrantes de Aespa</h2>
+        <div class="row">
+            <!-- Member 1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="imagenes/karina.jpg" class="card-img-top" alt="Karina">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Karina</h5>
+                        <p class="card-text">Líder y bailarina principal, conocida por su carisma y habilidades.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#karinaModal">
+                            Más sobre Karina
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 2 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="imagenes/Winter.jpg" class="card-img-top" alt="Winter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Winter</h5>
+                        <p class="card-text">Vocalista principal, famosa por su voz clara y fuerte presencia en el escenario.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#winterModal">
+                            Más sobre Winter
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 3 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="imagenes/Giselle.jpg" class="card-img-top" alt="Giselle">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Giselle</h5>
+                        <p class="card-text">Rapper principal, reconocida por su estilo y versatilidad.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#giselleModal">
+                            Más sobre Giselle
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 4 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="imagenes/Ningning.jpg" class="card-img-top" alt="Ningning">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ningning</h5>
+                        <p class="card-text">Maknae y vocalista principal, conocida por su potente rango vocal.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ningningModal">
+                            Más sobre Ningning
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Karina -->
+    <div class="modal fade" id="karinaModal" tabindex="-1" aria-labelledby="karinaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="karinaModalLabel">Karina</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Karina es la líder de Aespa, conocida por su carisma en el escenario y su capacidad de liderazgo.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Winter -->
+    <div class="modal fade" id="winterModal" tabindex="-1" aria-labelledby="winterModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="winterModalLabel">Winter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Winter es la vocalista principal, famosa por su dulce voz y su presencia magnética.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Giselle -->
+    <div class="modal fade" id="giselleModal" tabindex="-1" aria-labelledby="giselleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="giselleModalLabel">Giselle</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Giselle es la rapper principal, aportando un estilo único y mucha versatilidad a Aespa.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Ningning -->
+    <div class="modal fade" id="ningningModal" tabindex="-1" aria-labelledby="ningningModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ningningModalLabel">Ningning</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ningning es la maknae del grupo y una de las vocalistas principales, conocida por su impresionante rango vocal.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-purple text-white text-center py-3">
+        <p>&copy; 2024 K-pop Universe</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

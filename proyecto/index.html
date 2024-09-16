@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>K-pop Universe</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">K-pop Universe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="top-groups.html">Top Groups</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Últimos Álbumes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Zona de Fans</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero text-center text-white py-0">
+        <h1>Bienvenido al universo de K-pop</h1>
+        <p>Lo último en noticias de K-pop, álbumes e interacción entre fans.</p>
+    </header>
+    
+    <!-- Carousel -->
+    <div id="groupCarousel" class="carousel slide my-0">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-url="nwjs.html">
+                <img src="imagenes/NewJeans.jpg" class="d-block w-100" alt="NewJeans" height="550px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>NewJeans</h5>
+                    <p>“El grupo de la nueva generación que está revolucionando el K-pop con su estilo fresco y vibrante.”</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-url="aespa.html">
+                <img src="imagenes/aespa.jpg" class="d-block w-100" alt="AESPA" height="550px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Aespa</h5>
+                    <p>“El grupo que está marcando tendencias con su estilo y sus impresionantes vocales.”</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#groupCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#groupCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
+<!-- Noticias -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Últimas Noticias del K-pop</h2>
+    <div class="row g-4">
+        <!-- Noticia 1 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="imagenes/cookie nwjs.webp" class="card-img-top" alt="Noticia 1">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">NewJeans rompiendo records</h5>
+                    <p class="card-text flex-grow-1">"Cookie" de NewJeans se convierte en su cuarto MV en alcanzar 100 millones de vistas"</p>
+                    <button class="btn btn-primary leer-mas-btn mt-auto" data-bs-toggle="modal" data-bs-target="#noticiaModal" data-title="NewJeans lanzará nuevo álbum" data-content="¡”Cookie” de NewJeans superó 100 millones de vistas en YouTube!
+
+                    El 13 de agosto alrededor de las 8:55PM KST, el video musical de NewJeans para “Cookie” superó 100 millones de vistas en YouTube, convirtiéndolo en su cuarto video musical en lograrlo después de “‘Hype Boy’ Official MV (Performance ver.1)”, “‘OMG’ Official MV (Performance ver.1)” y “Super Shy”.">Leer más</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Noticia 2 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="imagenes/STRAY, NMIXX, Entre otros..webp" class="card-img-top" alt="Noticia 2">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">¡Billboard ha publicado su lista de álbumes mundiales para la semana que finaliza el 7 de septiembre!</h5>
+                    <p class="card-text flex-grow-1">Stray Kids, NMIXX, Jimin de BTS, ENHYPEN, aespa, SEVENTEEN, NCT 127 y NewJeans ocupan los primeros puestos de la lista de álbumes mundiales de Billboard</p>
+                    <button class="btn btn-primary leer-mas-btn mt-auto" data-bs-toggle="modal" data-bs-target="#noticiaModal" data-title="Aespa lidera las listas de éxitos" data-content="El último mini álbum de Stray Kids, “ATE”, encabezó la lista de álbumes mundiales por sexta semana consecutiva; 
+                    
+                    El segundo álbum en solitario de Jimin de BTS, “MUSE”, pasó su sexta semana consecutiva en el n.º 2 de la lista de álbumes mundiales;
+                    
+                    “ROMANCE : UNTOLD” de ENHYPEN se mantuvo estable en el n.º 3 en su séptima semana consecutiva en la lista de álbumes mundiales">Leer más</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Noticia 3 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="imagenes/lisa.jpg" class="card-img-top" alt="Noticia 3">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Lisa y su gran impacto.</h5>
+                    <p class="card-text flex-grow-1">Lisa de BLACKPINK hará historia en los MTV Video Music Awards 2024 con su debut en vivo como solista de k-pop</p>
+                    <button class="btn btn-primary leer-mas-btn mt-auto" data-bs-toggle="modal" data-bs-target="#noticiaModal" data-title="BTS en su gira mundial" data-content="En esta ocasión, Lisa, una de las integrantes de la girlband, se prepara para hacer historia como la primera solista de k-pop en presentarse en los MTV Video Music Awards 2024 (VMAs). ">Leer más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal mostrar la noticia -->
+<div class="modal fade" id="noticiaModal" tabindex="-1" aria-labelledby="noticiaModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="noticiaModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="noticiaModalBody"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Subscription Form -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Suscríbete para recibir las últimas actualizaciones</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <input type="email" class="form-control" id="email" placeholder="Introduce tu correo electrónico">
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-pink w-100">Suscribirse</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-purple text-white text-center py-3">
+        <p>&copy; K-pop Universe.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Top 100 Grupos de K-pop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">K-pop Universe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="top-groups.html">Top Groups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Últimos Álbumes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Zona de Fans</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Lista de grupos con números de ranking -->
+    <div class="container mt-4">
+        <div class="ranking-list">
+            <!-- Tarjeta de grupo Stray Kids -->
+            <div class="ranking-item">
+                <div class="ranking-number">1</div>
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Stray Kids</h5>
+                        <p class="card-text">Un grupo conocido por su energía y talento en el escenario.</p>
+                        <!-- Botón para ver las canciones del grupo -->
+                        <button class="btn btn-primary ver-canciones-btn" data-bs-toggle="modal" data-bs-target="#cancionesModal" data-grupo="Stray Kids" data-cancion1="God's Menu" data-imagen1="imagenes/gods menu skz.jpg" data-cancion2="Back Door" data-imagen2="imagenes/back door.jpg" data-cancion3="Thunderous" data-imagen3="imagenes/thunderous.jpg">Ver Top Canciones</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de grupo NewJeans -->
+            <div class="ranking-item">
+                <div class="ranking-number">2</div>
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">NewJeans</h5>
+                        <p class="card-text">Un grupo emergente que está ganando rápidamente popularidad.</p>
+                        <!-- Botón para ver las canciones del grupo -->
+                        <button class="btn btn-primary ver-canciones-btn" data-bs-toggle="modal" data-bs-target="#cancionesModal" data-grupo="NewJeans" data-cancion1="Attention" data-imagen1="imagenes/attention.jpg" data-cancion2="Hype Boy" data-imagen2="imagenes/hype-boy.jpg" data-cancion3="Hurt" data-imagen3="imagenes/hurt.jpg">Ver Top Canciones</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de grupo (G)I-DLE -->
+            <div class="ranking-item">
+                <div class="ranking-number">3</div>
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">(G)I-DLE</h5>
+                        <p class="card-text">Un grupo que destaca por sus conceptos únicos y fuertes actuaciones.</p>
+                        <!-- Botón para ver las canciones del grupo -->
+                        <button class="btn btn-primary ver-canciones-btn" data-bs-toggle="modal" data-bs-target="#cancionesModal" data-grupo="(G)I-DLE" data-cancion1="Tomboy" data-imagen1="imagenes/tomboy.jpg" data-cancion2="Hwaa" data-imagen2="imagenes/hwaa.jpg" data-cancion3="LION" data-imagen3="imagenes/lion.jpg">Ver Top Canciones</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de grupo TOMORROW X TOGETHER -->
+            <div class="ranking-item">
+                <div class="ranking-number">4</div>
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">TOMORROW X TOGETHER</h5>
+                        <p class="card-text">Conocidos por su música innovadora y sus impresionantes actuaciones en vivo.</p>
+                        <!-- Botón para ver las canciones del grupo -->
+                        <button class="btn btn-primary ver-canciones-btn" data-bs-toggle="modal" data-bs-target="#cancionesModal" data-grupo="TOMORROW X TOGETHER" data-cancion1="Blue Hour" data-imagen1="imagenes/blue hour.jpg" data-cancion2="Can't You See Me?" data-imagen2="imagenes/cant you see me.jpg" data-cancion3="Anti-Romantic" data-imagen3="imagenes/anti romantic.jpg">Ver Top Canciones</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de grupo ENHYPEN -->
+            <div class="ranking-item">
+                <div class="ranking-number">5</div>
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">ENHYPEN</h5>
+                        <p class="card-text">Un grupo que ha capturado la atención global con su música dinámica.</p>
+                        <!-- Botón para ver las canciones del grupo -->
+                        <button class="btn btn-primary ver-canciones-btn" data-bs-toggle="modal" data-bs-target="#cancionesModal" data-grupo="ENHYPEN" data-cancion1="Fever" data-imagen1="imagenes/fever.jpg" data-cancion2="Drunk-Dazed" data-imagen2="imagenes/drunk dazed.jpg" data-cancion3="Tamed-Dashed" data-imagen3="imagenes/tamed dashed.jpg">Ver Top Canciones</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de grupo ITZY -->
+            <div class="ranking-item">
+                <div class="ranking-number">6</div>
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">ITZY</h5>
+                        <p class="card-text">Un grupo conocido por su estilo audaz y sus mensajes empoderadores.</p>
+                        <!-- Botón para ver las canciones del grupo -->
+                        <button class="btn btn-primary ver-canciones-btn" data-bs-toggle="modal" data-bs-target="#cancionesModal" data-grupo="ITZY" data-cancion1="Wannabe" data-imagen1="imagenes/wannabe.jpg" data-cancion2="Not Shy" data-imagen2="imagenes/not shy.jpg" data-cancion3="Loco" data-imagen3="imagenes/loco.jpg">Ver Top Canciones</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal para ver las canciones -->
+    <div class="modal fade" id="cancionesModal" tabindex="-1" aria-labelledby="cancionesModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cancionesModalLabel">Top Canciones</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Aquí se actualizará el contenido con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
